@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Paylaşılan HMAC imzalama anahtarı — asla depoya dahil edilmemeli
+secrets/
+*.key
+
+# Node / panel (ileride build adımı eklenirse)
+node_modules/
+dist/
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+*.log
